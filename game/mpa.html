@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="mpa.css">
+  <title>MONKEYPOWERASSESSMENT</title>
+</head>
+<body>
+  <h1 class="under">❖MONKEYPOWERASSESSMENT❖</h1>
+  <h2>あなたのサル力がばれちゃう!?サル力判定!!</h2>
+  <form><input type="button" value="サル力を判定!" onClick="MPA()"></form>
+<script type="text/javascript">
+function MPA() {
+	rand = Math.floor(Math.random()*5);
+	if (rand == 0) msg = "あなたのサル力は...0! 残念!常人なようです!でなおしてきなさい!!";
+	if (rand == 1) msg = "あなたのサル力は...100! あなたはおとなしい性格のサルです。自分磨きの旅に出ましょう。";
+	if (rand == 2) msg = "あなたのサル力は...500! 標準的なサルですが、鳴き声のバリエーションを増やしてみるといいかもしれません。";
+	if (rand == 3) msg = "あなたのサル力は...3000! 野生のサルです。サルとしては上位です。";
+	if (rand == 4) msg = "あなたのサル力は...99999!!! 測れる上限を超えるほど大きなサル力の持ち主です。まさか、あなたはQUEEN...?";
+	alert(msg);
+}
+</script>
+<br><a href="..\monkeygamelist.html"><b>・<font color="#808000">LISTに戻る</font></b></a>
+<br><a href="..\home.html"><b>・<font color="#808000">HOMEに戻る</font></b></a>
+</body>
+</html>
